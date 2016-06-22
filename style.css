@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(210, 210, 210);
+  background-image: url('http://images.123hdwallpapers.com/20150505/nice-background-wallpaper-3840x2160.jpg');
+  position: center;
+  color: rgb(50, 50, 50);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+div {
+display: block;
+}
+
+p {
+  display:block;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color:#DD5353;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+
+a:hover {
+  color: #DD5353;
+}
+
+.container {
+  text-align: center;
+  width:40%;
+  margin: auto;
+}
+
+.classic {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 122, 109, 0.5);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1 );
+  margin:10px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.list-inline {
+  padding: 20px;
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.red-btn {
+  width: 35%;
+  font-weight: bold;
+  background-color:#DD5353;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-radius:10px;
+  color: white;
+}
+
+.red-btn:hover {
+  background-image: url('https://media.giphy.com/media/mADdmr45eBZHa/giphy.gif');
+}
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #DD5353;
+}
+
+#name {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40px;
+}
+
+
+
